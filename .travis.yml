@@ -65,3 +65,5 @@ script:
   - "make TEST_LOG=dump test-mkfs"
   - "make TEST_LOG=dump test-check"
   - "make TEST_LOG=dump test-misc"
+  - "make TEST_LOG=dump test-fsck"
+  - "make TEST_LOG=dump test-convert"
